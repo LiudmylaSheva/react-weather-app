@@ -72,3 +72,18 @@ body {
 		background-position: 0% 50%;
 	}
 }
+
+.search-btn {
+	background-color: #344d67;
+	color: #ade792;
+	border: 2 solid #344d67;
+	border-radius: 5px;
+	padding: 5px 10px;
+	font-weight: bold;
+}
+
+.search-btn:hover {
+	color: #344d67;
+	background-color: #ade792;
+	transition: all 400ms ease-in-out;
+}
