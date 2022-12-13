@@ -6,9 +6,9 @@ function App() {
 		<div className="App container">
 			<h1 className="title">
 				The weather application for your daily routine{" "}
-				<i class="fa-solid fa-hurricane fa-spin"></i>
+				<i className="fa-solid fa-hurricane fa-spin"></i>
 			</h1>
-			<Weather />
+			<Weather defaultCity="London" />
 			<footer>
 				{" "}
 				Created by Shevadutska Liudmyla and this project is{" "}
