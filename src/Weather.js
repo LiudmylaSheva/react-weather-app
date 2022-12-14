@@ -16,7 +16,7 @@ export default function Weather(props) {
 			pressure: response.data.temperature.pressure,
 			city: response.data.city,
 			description: response.data.condition.description,
-			icon: "http://shecodes-assets.s3.amazonaws.com/api/weather/icons/snow-night.png",
+			icon: `http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${response.data.condition.icon}.png`,
 			time: new Date(response.data.time * 1000),
 		});
 	}
