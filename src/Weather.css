@@ -87,3 +87,16 @@ body {
 	background-color: #ade792;
 	transition: all 400ms ease-in-out;
 }
+
+.tCelsius,
+.tFahrenheit {
+	text-decoration: none;
+	color: darkgreen;
+	font-weight: bolder;
+}
+
+.tCelsius:hover,
+.tFahrenheit:hover {
+	color: #ade792;
+	transition: all 400ms ease-in-out;
+}
